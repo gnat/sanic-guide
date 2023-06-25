@@ -38,7 +38,7 @@ async def test(request):
 - `path: str` - このクッキーが適用されるURLのサブセット。デフォルトは `/` です。
 - `comment: str` - コメント(メタデータ)。
 - `domain: str` - クッキーが有効なドメインを指定します。明示的に指定されたドメインは常にドットで始まる必要があります。
-- `max-age: int` - クッキーが存息する秒数。
+- `max_age: int` - クッキーが存息する秒数。
 - `secure: bool` - クッキーがHTTPS経由でのみ送信されるかどうかを指定します。
 - `httponly: bool` - クッキーをJavaScriptで読み取ることができないかどうかを指定します。
 - `samesite: str` - デフォルトはブラウザに依存し、仕様状態(Lax、Strict、None)は有効な値です。

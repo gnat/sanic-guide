@@ -43,7 +43,7 @@ async def test(request):
 - `path: str` - 이 쿠키가 적용되는 URL의 하위 집합입니다. 기본값은 `/`입니다.
 - `comment: str` - 주석(메타데이터)입니다.
 - `domain: str` - 쿠키가 유효한 도메인을 지정합니다. 명시적으로 지정된 도메인은 항상 점으로 시작해야 합니다.
-- `max-age: int` - 쿠키가 유지될 시간(초) 입니다.
+- `max_age: int` - 쿠키가 유지될 시간(초) 입니다.
 - `secure: bool` - 쿠키가 HTTPS를 통해서만 전송될지 지정합니다
 - `httponly: bool` - JavaScript에서 쿠키를 읽을 수 없는지 지정합니다.
 - `samesite: str` - 기본값은 브라우저에 따라 다르며, 사양 상태 (Lax, Strict 및 None)는 유효한 값입니다.
